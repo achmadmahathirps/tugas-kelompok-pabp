@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/achmadmahathirps/tugas-kelompok-pabp/issues"
   },
-  "homepage": "https://github.com/achmadmahathirps/tugas-kelompok-pabp#readme"
+  "homepage": "https://github.com/achmadmahathirps/tugas-kelompok-pabp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
