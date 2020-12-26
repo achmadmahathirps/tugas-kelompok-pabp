@@ -28,6 +28,11 @@ function checkAnswer(currentLevel){
   if(userClickedPattern[currentLevel] === gamePattern[currentLevel]) {
     console.log("success");
     if(userClickedPattern.length === gamePattern.length){
+      $("body").addClass("gamewon");
+      setTimeout(function(){
+        $("body").removeClass("gamewon");
+      },500);
+      
       setTimeout(function(){
         nextSequence();
       },1000);

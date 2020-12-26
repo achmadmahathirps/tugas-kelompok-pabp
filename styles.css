@@ -10,6 +10,10 @@ body {
   color: #FEF2BF;
 }
 
+.gamewon {
+  background-color: lightblue;
+}
+
 p {
   font-family: 'Press Start 2P', cursive;
   margin:  5%;
